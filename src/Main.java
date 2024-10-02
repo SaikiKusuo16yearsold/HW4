@@ -52,19 +52,19 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + childAge + " , то ему можно кататься на аттракционе в сопровождении");
         }
 
-//        byte totalSeats = 102;
-//        byte occupiedPlaces = 30;
-//        byte seats = 60;
-//        if (totalSeats > occupiedPlaces) {
-//            if (occupiedPlaces < seats) {
-//                System.out.println("Есть сидячие места");
-//
-//            } else {
-//                System.out.println("Есть только стоячие места");
-//            }
-//        } else {
-//            System.out.println("Вагон полностью забит");
-//        }
+        byte totalSeats = 102;
+        byte occupiedPlaces = 30;
+        byte seats = 60;
+        if (totalSeats > occupiedPlaces) {
+            if (occupiedPlaces < seats) {
+                System.out.println("Есть сидячие места");
+
+            } else {
+                System.out.println("Есть только стоячие места");
+            }
+        } else {
+            System.out.println("Вагон полностью забит");
+        }
 
 
         int one = 10;
